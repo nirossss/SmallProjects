@@ -1,0 +1,15 @@
+<h2>login</h2>
+<br />
+<div *ngIf="isLogin">
+    <input #accountNumber type="number" placeholder="account number">
+    <button (click)="connectAccount(accountNumber.value)">login</button>
+</div>
+
+<ul *ngIf="isData">
+    <li *ngFor="let item of accountData; trackBy:trackById; index as i;">
+        {{item.type}}: {{item.sum | currency}} . created:{{item.createdAt | date: 'mediumDate'}}
+        . {{item.type==="loan"? 'interest: ' + item.interest + '% for:' + item.payments + ' months' : ''}}
+    </li>
+</ul>
+
+<a *ngIf="isData" routerLink="/operations" routerLinkActive="active">new operation</a>

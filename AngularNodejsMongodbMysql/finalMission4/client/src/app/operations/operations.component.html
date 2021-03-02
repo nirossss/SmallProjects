@@ -1,0 +1,18 @@
+<br />
+<input #accountNumberOp type="number" placeholder="account number">
+<select #type (change)="checkChange(type.value)">
+    <option value="deposit">Deposit</option>
+    <option value="withdrawal">Withdrawal</option>
+    <option value="loan">Loan</option>
+</select>
+<div>
+    <input #sum type="number" placeholder="sum">
+</div>
+<button *ngIf="!isLoan" (click)="regOp(accountNumberOp.value, type.value, sum.value)">save</button>
+
+<div *ngIf="isLoan">
+    <input #payments type="number" placeholder="payments">
+    <input #interest type="number" placeholder="interest">
+    <br />
+    <button (click)="loanOp(accountNumberOp.value, type.value, sum.value, payments.value, interest.value)">save</button>
+</div>

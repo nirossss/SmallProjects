@@ -1,0 +1,317 @@
+[
+  {
+    "_id": {
+      "$oid": "5f58f283ce6a157198ee8938"
+    },
+    "accountNumber": 1,
+    "type": "deposit",
+    "sum": 1000,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2020-09-09T15:19:31.869Z"
+    },
+    "updatedAt": {
+      "$date": "2020-09-09T15:19:31.869Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5f58f283ce6a157198ee8939"
+    },
+    "accountNumber": 1,
+    "type": "withdrawal",
+    "sum": 1500,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2020-09-09T15:19:31.869Z"
+    },
+    "updatedAt": {
+      "$date": "2020-09-09T15:19:31.869Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5f58f283ce6a157198ee893a"
+    },
+    "accountNumber": 1,
+    "type": "loan",
+    "sum": 10000,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2020-09-09T15:19:31.869Z"
+    },
+    "updatedAt": {
+      "$date": "2020-09-09T15:19:31.869Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5f58f283ce6a157198ee893b"
+    },
+    "accountNumber": 2,
+    "type": "loan",
+    "sum": 20000,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2020-09-09T15:19:31.870Z"
+    },
+    "updatedAt": {
+      "$date": "2020-09-09T15:19:31.870Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5f58f283ce6a157198ee893c"
+    },
+    "accountNumber": 2,
+    "type": "withdrawal",
+    "sum": 2500,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2020-09-09T15:19:31.870Z"
+    },
+    "updatedAt": {
+      "$date": "2020-09-09T15:19:31.870Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5f58f5ff88a61f5f60fde480"
+    },
+    "accountNumber": 2,
+    "type": "deposit",
+    "sum": 3000,
+    "createdAt": {
+      "$date": "2020-09-09T15:34:23.955Z"
+    },
+    "updatedAt": {
+      "$date": "2020-09-09T15:34:23.955Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5f590f5e88a61f5f60fde481"
+    },
+    "accountNumber": 1,
+    "type": "deposit",
+    "sum": 100,
+    "createdAt": {
+      "$date": "2020-09-09T17:22:38.974Z"
+    },
+    "updatedAt": {
+      "$date": "2020-09-09T17:22:38.974Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5f590fe488a61f5f60fde482"
+    },
+    "accountNumber": 2,
+    "type": "withdrawal",
+    "sum": 100000,
+    "createdAt": {
+      "$date": "2020-09-09T17:24:52.927Z"
+    },
+    "updatedAt": {
+      "$date": "2020-09-09T17:24:52.927Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5f59100f88a61f5f60fde483"
+    },
+    "accountNumber": 1,
+    "type": "withdrawal",
+    "sum": 200,
+    "createdAt": {
+      "$date": "2020-09-09T17:25:35.914Z"
+    },
+    "updatedAt": {
+      "$date": "2020-09-09T17:25:35.914Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5f5911a888a61f5f60fde484"
+    },
+    "accountNumber": 1,
+    "type": "loan",
+    "sum": 30,
+    "createdAt": {
+      "$date": "2020-09-09T17:32:24.771Z"
+    },
+    "updatedAt": {
+      "$date": "2020-09-09T17:32:24.771Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5f5913b988a61f5f60fde485"
+    },
+    "accountNumber": 2,
+    "type": "deposit",
+    "sum": 100,
+    "createdAt": {
+      "$date": "2020-09-09T17:41:13.606Z"
+    },
+    "updatedAt": {
+      "$date": "2020-09-09T17:41:13.606Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5f5913c588a61f5f60fde486"
+    },
+    "accountNumber": 1,
+    "type": "deposit",
+    "sum": 100,
+    "createdAt": {
+      "$date": "2020-09-09T17:41:25.289Z"
+    },
+    "updatedAt": {
+      "$date": "2020-09-09T17:41:25.289Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5f5913e788a61f5f60fde487"
+    },
+    "accountNumber": 1,
+    "type": "loan",
+    "sum": 1000,
+    "createdAt": {
+      "$date": "2020-09-09T17:41:59.867Z"
+    },
+    "updatedAt": {
+      "$date": "2020-09-09T17:41:59.867Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5f59142488a61f5f60fde488"
+    },
+    "accountNumber": 2,
+    "type": "deposit",
+    "sum": 1123,
+    "createdAt": {
+      "$date": "2020-09-09T17:43:00.179Z"
+    },
+    "updatedAt": {
+      "$date": "2020-09-09T17:43:00.179Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5f59158b7ef1fb0d8448f355"
+    },
+    "accountNumber": 1,
+    "type": "deposit",
+    "sum": 123123,
+    "createdAt": {
+      "$date": "2020-09-09T17:48:59.964Z"
+    },
+    "updatedAt": {
+      "$date": "2020-09-09T17:48:59.964Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5f5915a37ef1fb0d8448f356"
+    },
+    "accountNumber": 2,
+    "type": "loan",
+    "sum": 123123,
+    "createdAt": {
+      "$date": "2020-09-09T17:49:23.733Z"
+    },
+    "updatedAt": {
+      "$date": "2020-09-09T17:49:23.733Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5f59173ede84424b349b8821"
+    },
+    "accountNumber": 1,
+    "type": "deposit",
+    "sum": 657,
+    "createdAt": {
+      "$date": "2020-09-09T17:56:14.003Z"
+    },
+    "updatedAt": {
+      "$date": "2020-09-09T17:56:14.003Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5f59175bde84424b349b8822"
+    },
+    "accountNumber": 1,
+    "type": "loan",
+    "sum": 12345678,
+    "createdAt": {
+      "$date": "2020-09-09T17:56:43.442Z"
+    },
+    "updatedAt": {
+      "$date": "2020-09-09T17:56:43.442Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5f591ba457c6206ff457168a"
+    },
+    "accountNumber": 2,
+    "type": "deposit",
+    "sum": 888,
+    "createdAt": {
+      "$date": "2020-09-09T18:15:00.927Z"
+    },
+    "updatedAt": {
+      "$date": "2020-09-09T18:15:00.927Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5f591ed057c6206ff457168b"
+    },
+    "accountNumber": 2,
+    "type": "withdrawal",
+    "sum": 100,
+    "createdAt": {
+      "$date": "2020-09-09T18:28:32.353Z"
+    },
+    "updatedAt": {
+      "$date": "2020-09-09T18:28:32.353Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5f59201f57c6206ff457168c"
+    },
+    "accountNumber": 3,
+    "type": "deposit",
+    "sum": 123,
+    "createdAt": {
+      "$date": "2020-09-09T18:34:07.040Z"
+    },
+    "updatedAt": {
+      "$date": "2020-09-09T18:34:07.040Z"
+    },
+    "__v": 0
+  }
+]

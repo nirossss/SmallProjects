@@ -1,0 +1,11 @@
+<br />
+
+<select #selectId>
+    <option *ngFor="let item of familyArr; trackBy:trackById; index as i;" value="{{item._id}}">{{item.name}}</option>
+</select>
+
+<br />
+
+<input #input type="text" placeholder="Todo description">
+
+<button (click)="newTodo(selectId.value, input.value)">add</button>

@@ -1,0 +1,30 @@
+header {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px;
+    margin: 0; 
+    border-bottom: 2px solid black;
+}
+
+input[type="checkbox"] {
+    background-color: initial;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+input[type=text] {
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+  }
+
+.sort-header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 15px;
+    padding: 15px;
+    font-size: medium;
+}

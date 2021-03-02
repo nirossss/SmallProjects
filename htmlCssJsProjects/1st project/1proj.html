@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>First project Nir Elenhoren</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/1proj.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>My Tesk Board</h1>
+        </div>
+        <!-- end of title -->
+<div id="clear"></div>
+        <div class="row" id="create_note">
+            <div class="col-12 center" id="open_hidden_div">
+                <button class="btn" onclick="show_form('none', 'block');"><h4>Add new note<h4></button>
+            </div>
+            <form>
+                <div class="form-group" id="hidden_div">
+                    <label for="note_text"><h5>Note text:</h5></label>
+                    <div class="form-group" onkeypress="closeForm('none');"><textarea id="note_text" class="form-control" rows="3" ></textarea></div>
+                    <label><h5>Date and time:</h5></label>
+                    <input id="note_date" class="form-control" type="date" maxlength="10">
+                    <input id="note_time" class="form-control" type="time" maxlength="5">
+                    <button type="button" class="btn btn-primary my-1" onClick="creat_new_note();">Add to notes</button>
+                    <button type="button" class="btn btn-success my-1" onClick="alert_function();">Clear</button>
+                    <button class="btn" onclick="show_form('none', 'block');" id="closeForm"><h4><i class="fa fa-times"></i><h4></button>
+                </div>
+            </form>
+        </div>
+        <!-- end of create note form -->
+<div id="clear"></div>
+    <div class="row" id="all_notes"></div>
+        <!-- end of all notes divs -->
+        <script src="js/1proj.js"></script>
+</body>
+</html>

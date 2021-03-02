@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.5,  minimum-scale=1, user-scalable=yes">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<title>Test 1</title>
+<style>
+
+#clear {
+    clear: both;
+}
+
+#ball_valume {
+    border: 1px solid black;
+    width: 30%;
+    height: 25px;
+}
+
+</style>
+</head>
+<body>
+<div class="container-fluid">  
+    <div class="row">
+        <div class="col-md-6">
+            <form method="post" action="">
+                <div class="form-group">
+                    <label>Radius</label>
+                    <input type="text" name="radius" id="radius" placeholder="Numbers only" class="radius"><br>
+                    <label>Ball valume:</label>
+                    <div  id="ball_valume" class="ball_valume"></div>
+                </div>
+            </form>
+            <input type="button" class="btn btn-success" onClick="draw_circle();" value="Add radius">
+        </div>
+        <div class="col-md-6">
+            <canvas id="canvas_id" width="400px" height="400px" style="border: 2px solid black;"></canvas>
+            <div id="clear"></div>
+            <input type="button" class="btn btn-danger" onClick="clear_circle();" value="Clear canvas">
+        </div>
+    </div>
+</div>  
+
+<script src="test.js"></script>
+</body>
+</html>

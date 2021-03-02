@@ -1,0 +1,87 @@
+.container {
+    border: 2px solid #efefef;
+    margin-top: 15px;
+    border-radius: 1%;
+    background: #f3f3f3;
+    font-size: large;
+    flex-basis: 25%;
+}
+
+.wrapper {
+    margin:15px;
+    padding: 0;
+}   
+
+button {
+    background-color: #f3f3f3; 
+    color: black; 
+    /* border: 1px solid #008CBA; */
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: medium;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover {
+background-color: #008CBA;
+color: white;
+}
+
+.date-div {
+    font-size: x-small;
+    font-weight: lighter;
+}
+
+ol{
+     list-style: none;
+     align-items: center;
+     padding-inline-start: 0px;
+}
+
+.teams-scores{
+    font-size: x-large;
+}
+
+textarea {
+    width: 95%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+  }
+
+.starIcon{
+    color: gold;
+    cursor: pointer;
+}
+
+.iconContainer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.starTooltip{
+    display: none;
+    text-align: center;
+    width: 75px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    border: solid #efefef 1px;
+    border-radius: 25%;
+    z-index: 1;
+}
+
+.iconContainer:hover .starTooltip{
+    display: block;
+    bottom: 25px;
+    position: absolute;
+}

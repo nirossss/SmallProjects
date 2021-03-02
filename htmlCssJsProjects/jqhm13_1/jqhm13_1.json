@@ -1,0 +1,87 @@
+
+{
+    "Cucamber" : {
+            "type" : "Vegis",
+            "idNumber" : "1",
+            "poster" : "<img src='img/cucumber.jpeg' alt=''>",
+            "description" : "Grean and divine",
+            "price" : "1 nis/kg"
+    },
+    "Celery" : {
+            "type" : "Vegis",
+            "idNumber" : "2",
+            "poster" : "<img src='img/Celery.jpeg' alt=''>",
+            "description" : "crunchy",
+            "price" : "2 nis/kg"
+    },
+    "Garlic" : {
+            "type" : "Vegis",
+            "idNumber" : "3",
+            "poster" : "<img src='img/Garlic.jpeg' alt=''>",
+            "description" : "smelly",
+            "price" : "3 nis/kg"
+    },
+    "Apple" : {
+            "type" : "Fruits",
+            "idNumber" : "4",
+            "poster" : "<img src='img/Apple.jpeg' alt=''>",
+            "description" : "yummy",
+            "price" : "4 nis/kg"
+    },
+    "Bannana" : {
+            "type" : "Fruits",
+            "idNumber" : "5",
+            "poster" : "<img src='img/Bannana.jpeg' alt=''>",
+            "description" : "smooshy",
+            "price" : "5 nis/kg"
+    },
+    "Figs" : {
+        "type" : "Fruits",
+        "idNumber" : "6",
+        "poster" : "<img src='img/Figs.jpeg' alt=''>",
+        "description" : "dreamy",
+        "price" : "6 nis/kg"
+    },
+    "Milk" : {
+            "type" : "Dairy",
+            "idNumber" : "7",
+            "poster" : "<img src='img/Milk.jpeg' alt=''>",
+            "description" : "mewwww",
+            "price" : "7 nis/kg"
+    },
+    "Yogurt" : {
+            "type" : "Dairy",
+            "idNumber" : "8",
+            "poster" : "<img src='img/Yogurt.jpeg' alt=''>",
+            "description" : "creamy",
+            "price" : "8 nis/kg"
+    },
+    "Cheese" : {
+            "type" : "Dairy",
+            "idNumber" : "9",
+            "poster" : "<img src='img/Cheese.jpeg' alt=''>",
+            "description" : "fatty",
+            "price" : "9 nis/kg"
+    },
+    "Lamb" : {
+            "type" : "Meat",
+            "idNumber" : "10",
+            "poster" : "<img src='img/Lamb.jpeg' alt=''>",
+            "description" : "cute",
+            "price" : "10 nis/kg"
+    },
+    "Beef" : {
+            "type" : "Meat",
+            "idNumber" : "11",
+            "poster" : "<img src='img/Beef.jpeg' alt=''>",
+            "description" : "strong",
+            "price" : "11 nis/kg"
+    },
+    "Chicken" : {
+            "type" : "Meat",
+            "idNumber" : "12",
+            "poster" : "<img src='img/chicken.jpeg' alt=''>",
+            "description" : "heavenly",
+            "price" : "1234453451 nis/kg"
+    }
+}

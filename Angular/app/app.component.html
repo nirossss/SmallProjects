@@ -1,0 +1,16 @@
+<h1>
+  Title {{time | date:'short' | lowercase}}
+</h1>
+<input #myinput type="text" (keyup)="updateStr(myinput.value)">
+{{myStr | uppercase}}
+<!-- <div 
+  class="touch" 
+  (click)="boom()" 
+  (mousemove)="touch($event)" 
+  [style.left]="left" 
+  [style.top]="top"
+  [class.boom]="isBoom"
+  [attr.aria-label]="aLabel"
+>
+  {{!isBoom ? 'Hover me!' : 'Boom!!!'}}
+</div> -->

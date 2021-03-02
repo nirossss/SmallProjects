@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.5,  minimum-scale=1, user-scalable=yes">
+<meta charset="UTF-8">
+<title>hm 29_12</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="hm29_12.css">
+</head>
+<body>
+
+<div class="col-12 title"><h1>Final scores</h1></div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 border rounded p-1" id="myTable">
+            <table class="table table-striped">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>First name</th>
+                        <th>Last name</th>
+                        <th>Score</th>
+                        <th>Notes</th>
+                    </tr>
+                </thead>
+                <tbody id="tBody"></tbody>
+            </table>
+        </div>
+    </div>
+<div id="clear"></div>
+    <div class="row">
+        <div class="col-8">
+            <form>
+                <textarea id="noteText" rows="5"></textarea>
+                <select id="chooseStudent">                
+                    <option value="none" selected="selected">Choose student</option>
+                    <option value="0">David a</option>
+                    <option value="1">Nir b</option>
+                    <option value="2" >Shimi c</option>
+                </select>
+                <button type="button" class="btn btn-primary my-1" onClick="creatNote();">Add to notes</button>
+                <button type="button" class="btn btn-danger my-1" onClick="resetTextArea();">Reset note</button>
+            </form>
+    </div>
+</div>
+<script src="hm29_12.js"></script>
+</body>
+</html>

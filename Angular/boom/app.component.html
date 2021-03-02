@@ -1,0 +1,10 @@
+<div 
+  class="touch" 
+  (click)="boom()" 
+  (mousemove)="touch($event)" 
+  [style.left]="left" 
+  [style.top]="top"
+  [class.boom]="isBoom"
+>
+  {{!isBoom ? 'Hover me!' : 'Boom!!!'}}
+</div>

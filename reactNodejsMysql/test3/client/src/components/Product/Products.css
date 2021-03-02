@@ -1,0 +1,39 @@
+.isUpdated{
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(103, 228, 141);
+}
+
+.container {
+    border: 2px solid #efefef;
+    margin-top: 15px;
+    border-radius: 1%;
+    background: #f3f3f3;
+    font-size: large;
+    flex-basis: 25%;
+}
+
+input[type=number] {
+    background-color: rgba(255, 255, 255, 0.945);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 4px 2px;
+  }
+
+  button {
+    background-color: #f3f3f3; 
+    color: black; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: medium;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #008CBA;
+    color: white;
+    }

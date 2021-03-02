@@ -1,0 +1,27 @@
+header{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px;
+    margin: 0; 
+    border-bottom: 2px solid black;
+}
+
+.games-cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 15px;
+    padding: 15px;
+}
+
+select {
+    width: 80%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    font-size: large;
+    font-weight: lighter;
+  }

@@ -1,0 +1,10 @@
+<h2>
+    todo list
+</h2>
+
+<ul>
+    <li *ngFor="let item of todosArr; trackBy:trackById; index as i;">
+        {{item.createdAt | date: 'mediumDate'}} {{item.description}} - {{item.inCharge.nickName}}
+        <button (click)="deleteTodo(item._id)">X</button>
+    </li>
+</ul>

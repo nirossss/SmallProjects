@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dice guess</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+        *{
+            text-align: center;
+        }
+        .form{
+            width: auto;
+            text-align: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="form-group">
+                    <label for="exampleSelect1">Guess the dice number:</label>
+                    <select id="numSelect" class="form-control" style="width: auto; margin:0 auto;">
+                        <option selected="selected" value="0">guess the dice number</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+                <button type="button" class="btn btn-success" onclick="showRez()">roll the dice</button>
+            </div>
+            <div class="col-12">
+                <div id="timerClock" class="jumbotron" style="margin: 80px; font-size: x-large; text-align: center;"></div>
+                <div id="showRez" style="font-size: x-large; text-align: center;">Result</div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="hm24_1dice.js"></script>
+</body>
+</html>

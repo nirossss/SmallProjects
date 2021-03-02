@@ -1,0 +1,6 @@
+* {
+    box-sizing: border-box;
+}
+#rectangles {
+    border: 2px solid black;
+}

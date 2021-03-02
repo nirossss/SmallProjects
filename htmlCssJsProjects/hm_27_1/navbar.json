@@ -1,0 +1,26 @@
+[
+    {
+        "htmlName" : "Home",
+        "title" : "This is the home page",
+        "tooltip" : "To home page",
+        "color" : "pink"
+    },
+    {
+        "htmlName" : "Features",
+        "title" : "This is the Features page",
+        "tooltip" : "To Features page",
+        "color" : "turquoise"
+    },
+    {
+        "htmlName" : "Pricing",
+        "title" : "This is the Pricing page",
+        "tooltip" : "To Pricing page",
+        "color" : "plum"
+    },
+    {
+        "htmlName" : "About",
+        "title" : "This is the About page",
+        "tooltip" : "To About page",
+        "color" : "blue"
+    }
+]
